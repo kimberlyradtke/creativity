@@ -1,0 +1,237 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+ margin:0;
+ padding:0;
+}
+
+body {
+	background-color: #9CCDCA;
+}
+
+div#container {
+	width: 968px;
+	color: #F2F2F2;
+	margin: 0 auto;
+}
+
+div#content {
+	background-color: #F2F2F2;
+	padding: 10px;
+	width: 968px;
+}
+
+#content #line {
+	float: right;
+	width: 500px;
+	clear: both;
+}
+
+#content {
+	margin-right: 0px;
+	margin-left: 0px;
+	text-align: center;
+}
+#container {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+div#nav ul {
+	position: absolute;
+	top: 45px;
+	left: 415px;
+	width: 300px;
+	padding: 0;
+}
+
+div#nav ul#home {
+	position: absolute;
+	top: 42px;
+	left: 415px;
+	width: 300px;
+	padding: 0;
+}
+
+#container #nav ul li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #f2f2f2;
+	display: inline;
+}
+
+.padding-right {
+	padding-right: 10px;
+}
+
+a {
+	text-decoration: underline;
+	color: #f2f2f2
+}
+
+a#selected {
+	color: #FFF8A7
+}
+
+#content p.process_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 124%;
+	color: #000;
+	text-align: left;
+	width: 850px;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+#container #content h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #e15d58;
+	text-align: left;
+	width: 850px;
+	margin: auto;
+	padding-bottom: 10px;
+}
+#container #content #top_h1 {
+	padding-top: 40px;
+}
+
+#container #content #quote {
+	clear: both;
+	float: right;
+	width: 244px;
+	height: 350px;
+	position: relative;
+	margin: 0 0 10px 10px;
+}
+#container #content #quote {
+	top: -4px;
+	right: 3px;
+}
+
+#container #content #article_h1, #container #content .inspiration_h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #e15d58;
+	text-align: left;
+	padding-top: 25px;
+	width: 968px;
+	padding-bottom: 0;
+}
+
+
+p.article_text, p.inspiration_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 124%;
+	color: #000;
+	text-align: left;
+	width: 950px;
+	padding: 0 0 5px 10px;
+	margin-top:10px;
+}
+#container #content h2.article_links, #container #content h2.inspiration_links {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #e15d58;
+	text-align: left;
+	padding-left: 10px;
+}
+
+a.article_links, a.inspiration_links {
+	text-decoration: underline;
+	color: #e15d58;
+	font-size: 14px;
+}
+
+#container #content #other_article_h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #e15d58;
+	text-align: left;
+	padding-top: 5px;
+	width: 968px;
+	padding-bottom: 0;
+}
+
+.inline {
+	display: inline;
+	padding: 0 5px 0 5px;
+}
+
+li#articles {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #e15d58;
+	text-align: left;
+	list-style: none;
+}
+
+ul#article {
+	margin: auto;
+	padding: 0;
+}
+
+#article_section {
+	width: 968px;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #e15d58;
+}
+	
+#container #content #cc_images #cc_blog {
+	margin-right: 5px;
+}
+
+div#cc_images {
+	width: 300px;
+	float: right;
+	margin: 60px 4px 0 0;
+	padding: 0 0 10px 10px;
+}
+#container #content #inspiration_images {
+	margin-top: 20px;
+}
+#container #content #articles {
+	width: 968px;
+}
+
+a#christmas, a#dodge, a#fab {
+	color: #e15d58;
+	font-size: 14px;
+	margin: 0;
+}
+
+div.inspiration {
+	width: 300px;
+    height: 172px;
+	float: left;
+    margin: 5px;
+    text-align: center;
+}
+
+#inspiration_websites {
+	width: 968px;
+    margin: auto; /* center div within the content div */
+    height: 250px;
+	margin-left: 22px;
+}
+
+.clear {
+    clear: both;
+}
+
+
